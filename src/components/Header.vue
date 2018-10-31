@@ -1,8 +1,6 @@
 <template>
   <div class="header-content">
-    <div class="center">
-      <b-img :src="image" fluid-grow class="img-logo"></b-img>
-    </div>
+      <b-img :src="image" fluid-grow class="img-logo center"></b-img>
       <h1>Triagem com o auxílio de Machine Learning</h1>
   </div>
 </template>
@@ -28,6 +26,7 @@
     padding-bottom: 5%;
     color: #64bdb4 !important;
     text-align: center;
+    margin-bottom: 0 !important;
   }
 
   .center {
@@ -41,10 +40,6 @@
   }
 
   @media screen and (max-width: 425px){
-    .img-logo { 
-      margin-top: 12%;
-    }
-
     h1 {
       padding-bottom: 0;
     }
