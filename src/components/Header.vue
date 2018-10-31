@@ -12,6 +12,7 @@
   }
 </script>
 <style>
+  /* HEADER */
   .header-content {
     min-height: 300px;
     background-color: #032728;
@@ -19,7 +20,7 @@
 
   h1 {
     padding: 5% 0;
-    color: #64bdb4;
+    color: #64bdb4 !important;
     text-align: center;
   }
 
