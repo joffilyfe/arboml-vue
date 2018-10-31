@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Index msg="Página principal"/>
+    <Index/>
   </div>
 </template>
 
