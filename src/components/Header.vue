@@ -19,7 +19,6 @@
   }
 </script>
 <style>
-  /* HEADER */
   .header-content {
     min-height: 300px;
     background-color: #032728;
@@ -39,5 +38,15 @@
 
   .img-logo {
     padding: 5% 20%;
+  }
+
+  @media screen and (max-width: 425px){
+    .img-logo { 
+      margin-top: 12%;
+    }
+
+    h1 {
+      padding-bottom: 0;
+    }
   }
 </style>
