@@ -1,14 +1,21 @@
 <template>
   <div class="header-content">
     <div class="center">
-      <img src="../assets/images/logo.png" alt="" class="img-logo">
+      <b-img :src="image" fluid-grow class="img-logo"></b-img>
     </div>
       <h1>Triagem com o auxílio de Machine Learning</h1>
   </div>
 </template>
 <script>
+  import image from '../assets/images/logo.png'
+
   export default {
-    name: 'header'
+    name: 'header',
+    data() {
+      return {
+        image
+      }
+    }
   }
 </script>
 <style>
@@ -19,7 +26,7 @@
   }
 
   h1 {
-    padding: 5% 0;
+    padding-bottom: 5%;
     color: #64bdb4 !important;
     text-align: center;
   }
@@ -31,7 +38,6 @@
   }
 
   .img-logo {
-    width: 50%;
-    margin-top: 5%;
+    padding: 5% 20%;
   }
 </style>
