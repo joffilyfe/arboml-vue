@@ -1,4 +1,4 @@
-# arboml
+# ArboML Vue Front-end
 
 ## Project setup
 ```

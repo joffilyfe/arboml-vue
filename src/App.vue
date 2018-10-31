@@ -1,16 +1,16 @@
 <template>
   <div>
-    <Main msg="Página inicial"/>
+    <Index msg="Página principal"/>
   </div>
 </template>
 
 <script>
-import Main from './components/Main.vue'
+import Index from './components/Index.vue'
 
 export default {
   name: 'app',
   components: {
-    Main
+    Index
   }
 }
 </script>
