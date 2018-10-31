@@ -1,16 +1,18 @@
 <template>
   <div>
-    <p>{{msg}}</p>
+    <Header/>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'index',
-  props: {
-    msg: String
+  import Header from './Header.vue'
+
+  export default {
+    name: 'index',
+    components: {
+      Header
+    }
   }
-}
 </script>
 
 <style scoped>
